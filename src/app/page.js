@@ -9,7 +9,7 @@ export default function Home() {
             href="mailto:abigaillinhollowell@usf.edu"
             className="text-blue-600 hover:underline"
           >
-            abigailllinhollowell@usf.edu
+            abigaillinhollowell@usf.edu
           </a>
           {" | "}
           <a
