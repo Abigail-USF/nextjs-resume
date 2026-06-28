@@ -5,7 +5,30 @@ export default function Home() {
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-bold">Abigail Hollowell</h1>
         <p className="text-sm text-gray-600">
-          abigailllinhollowell@usf.edu | Tampa, FL | LinkedIn/GitHub
+          <a
+            href="mailto:abigaillinhollowell@usf.edu"
+            className="text-blue-600 hover:underline"
+          >
+            abigailllinhollowell@usf.edu
+          </a>
+          {" | "}
+          <a
+            href="https://www.linkedin.com/in/abigail-hollowell"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          {" | "}
+          <a
+            href="https://github.com/Abigail-USF"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
         </p>
         <p className="mt-4 text-gray-700">
           I am a Business Analytics and Business Management student at the University of South Florida with a passion for data analysis and visualization. I have experience in SQL, Tableau, and customer service. I am eager to apply my skills to real-world business problems.
@@ -39,6 +62,7 @@ export default function Home() {
         <ul className="list-disc list-inside mt-2 text-gray-700">
           <li>Provided excellent customer service in a fast-paced environment.</li>
           <li>Managed multiple tables and ensured a smooth dining experience for guests.</li>
+          <li>Assisted over 500 guests daily while ensuring smooth reservations and check-in experiences.</li>
         </ul>
       </div>
       </section>
