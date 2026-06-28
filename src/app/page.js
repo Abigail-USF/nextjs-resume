@@ -62,7 +62,6 @@ export default function Home() {
   <h2 className="text-xl font-semibold uppercase tracking-wide mb-3">
     Leadership & Activities
   </h2>
-
   <h3 className="font-semibold">Senior Class President</h3>
   <p className="text-gray-600">First Academy Leesburg</p>
 
